@@ -6,7 +6,7 @@ A timed quiz on JavaScript fundamentals that stores high scores, allowing users 
 
 ## Live Demo
 
-[Click here for a live demo](https://ishaval.github.io/challenge-4/)
+[Click here for a live demo](ishaval.github.io/Challenge-4/)
 
 ## Features
 
