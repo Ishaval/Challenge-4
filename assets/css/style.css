@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2b2b2b;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url('https://media.tenor.com/44W7Kpj5yOcAAAAC/8bit.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 120em 70em;
+  }
+  
+  main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .row {
+    width: 100%;
+  }
+  
+  .row .col-md-6 {
+    margin: 0 auto;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+ 
+    
+  #quiz-container, #highscores-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  #quiz-container button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+  }
+
+  #clear-score {
+    background-color: #f44336;
+    color: #2b2b2b;
+  }
+
+  #go-back {
+    background-color: #2c9c21;
+    color: #2b2b2b;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #256b28;
+    color: black;
+    opacity: .7;
+    transform: scale(.9);
+    transition: smooth;
+  }
+  
+  
+  
+  
